@@ -5,6 +5,7 @@ Course aims to bridge the gap between logic gates and writing code in terms of c
 ## Micro-Architecture
 
 MA executes a series of low-level machine language instructions. 
+MA is the specific arrangement of registers, ALUs, finite machines, memories, and other logic building blocks needed to implement an architecture. 
 
 The MA can be split into various parts. The processor is like the brain and is where the calculations are performed. We also have a memory. Information flows between the two, and this connection and flow is called the *bus*. The bus refers to the electrical connections that exist between the components of MA. These electrical connections are strips of metal laid down on the sillicon chip. 
 We also have I/O devices, which flows between the processor. This could be a keyboard, a mouse, a screen, etc. 
