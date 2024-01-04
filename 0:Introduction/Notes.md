@@ -16,7 +16,8 @@ Buses are digital connections between functional blocks. They can be *serial* or
 Serial: One bit is transmitted at a time.
 Parallel: Several bits are transmitted simultaneously. Usually implemented using several parallel wires. 
 
-Working with Harvard MA. Harvard MA seperates instruction memory from data memory.  
+Working with Harvard MA. Harvard MA seperates instruction memory from data memory. In Von Neumann architecture there is one memory space for both data and instructions. 
+Most modern computers follow the VN architecture. Harvard architecture is commonly found in embedded systems, microcontrollers, and specialized applications. 
 
 Instruction memory will store the programme and data memory will store variables. 
 
@@ -25,3 +26,5 @@ There's a distinction between specialized and generalized computing. Generalized
 Some stored programmes devices also have specialized hardware to accelerate certain operations. 
 DSPs: Digital signal processors
 GPUs: Graphics processing units
+
+- An Embedded system is a computer that is embedded in a larger system that does a very specific job. Embedded systems still use a stored programme micro-architecture. Firmware is software that provdies very low level control of hardware. 
