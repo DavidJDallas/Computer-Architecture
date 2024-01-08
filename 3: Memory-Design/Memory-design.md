@@ -26,6 +26,8 @@ Typically, non-volatile memory is used for the task of secondary storage. Primar
 
  Remember that in Von Neumann Architecture, Data Memory (DM) and Instruction Memory (IM) are stored in the same place. In Harvard Architecture, they are stored seperately. This course focuses, as was mentioned, on Harvard Architecture. 
 
+Instruction memory takes a 16 bit address and outputs a 16 bit memory word. The *IM block is read-only*. 
+
 Data memory allows reading and writing and uses 16 bit addressing.
 
  The data memory and instruction memory interface are slightly different. 
