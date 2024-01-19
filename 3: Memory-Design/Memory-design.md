@@ -35,3 +35,14 @@ Data memory allows reading and writing and uses 16 bit addressing.
  DM Interface:
  - Address bus that indexes the region of the memory. Byte level 16 bit addressing. 
  - The 1
+
+ ### Memory Cells
+
+ A memory cell is a logic structure that stores a single bit. 
+
+ 1 Example is a latch structure. Typically latches involves some feedback; some sort of combinational logic and the ouput is fed back to some logic gate. 
+
+ Static RAM: Uses latching circularity (flip-flop) to store each bit. 
+
+ SRAM uses differential signalling. Rather than using a single logic line to hold a 1 or a 0 it uses 2 differential lines. This improves performance. 
+
